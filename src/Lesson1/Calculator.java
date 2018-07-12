@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.event.*;
  
  
-class Calc implements ActionListener
+class Calculator implements ActionListener
 {
     JFrame f;
     JTextField t;
@@ -13,7 +13,7 @@ class Calc implements ActionListener
     static double a=0,b=0,result=0;
     static int operator=0;
  
-    Calc()
+    Calculator()
     {
         f=new JFrame("Calculator");
         t=new JTextField();
@@ -207,6 +207,6 @@ class Calc implements ActionListener
  
     public static void main(String...s)
     {
-        new Calc();
+        new Calculator();
     }
 }
